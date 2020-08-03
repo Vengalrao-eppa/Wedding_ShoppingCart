@@ -1,0 +1,15 @@
+Improvements 
+
+
+
+	1.	I would’ve deployed this in any cloud (AWS/GCP) and run it in real time with a multiple user using the cart
+	2.	Design a High Availability Architecture of multiple servers and test it with multiple users and then disable/deactivate one of them and monitor 
+        how our application sustaining the load and serving the user requests by redirecting to active server
+	3.	I would've implemented the Database on a large scale to store the data and to serve the user requests 
+	4.	Due to my personal laptop issues I couldn’t create a Docker/Containerisation or else I would have done that.
+	5.	Designed a UI (least priority) to create a more interactive UI
+	6.	Created a CI/CD pipeline of multiple developers working on same application/task.
+	7.	Would like to design this service to meet the high-performance requirement like 
+		a)	Load Balancer to handle the number of requests 
+		b)	Cloud Storage to store the continuous storage of our data and Catalogue 
+		c)	Cache mechanism for optimisation 
